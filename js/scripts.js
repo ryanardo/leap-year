@@ -1,8 +1,13 @@
 //Back end logic
 
 var leapYear = function(year) {
-  return false;
-}; //End of 'leapYear' function
+  if (year % 4 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}; 
+//End of 'leapYear' function
 
 
 
